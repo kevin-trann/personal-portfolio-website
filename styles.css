@@ -1,0 +1,62 @@
+body{
+    background-color: #0a192f;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+}
+
+header{
+    display:flex;
+    justify-content: flex-end;
+    gap:60px;
+    margin-right:2vw;
+
+
+}
+
+#intro{
+    color:#8892b0;
+    text-align:left;
+    margin-left:30vw;
+    margin-right: 35vw;
+    padding-top: 30vh;
+    font-weight: 200;
+    line-height: 0.9;
+    
+}
+
+h1{
+    font-size:50px;
+    
+}
+
+h4{
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+#lightSlate{
+    color: #ccd6f6;
+}
+
+#magenta{
+    color:#f72585;
+}
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:#f72585;
+}
+
+a:active{
+    color:#f72585;
+}
+
