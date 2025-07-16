@@ -14,15 +14,60 @@ header{
 
 }
 
-#intro{
+.section{
     color:#8892b0;
     text-align:left;
-    margin-left:30vw;
-    margin-right: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35vw; 
     padding-top: 30vh;
     font-weight: 200;
     line-height: 0.9;
     
+}
+
+#contact{
+    text-align: center;
+    line-height: 0.5;
+    padding-bottom: 20vh;
+}
+
+#contact h4{
+    margin: 0 auto;
+    width: 25vw;
+}
+
+#emailButton {
+    margin-top:70px
+}
+
+#emailButton a{
+    border:solid #f72585 2px;
+    width: 140px;
+    margin: 0 auto;
+    height:50px;
+    border-radius: 9px;
+    padding: 20px 30px;
+    color: #f72585;
+    font-weight:700;
+}
+
+#emailButton a:link, #emailButton a:visted{
+    color:#f72585;
+    text-decoration: none;
+}
+
+#emailButton a:hover, #emailButton a:active{
+    color:white;
+}
+
+#credits{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color:#8892b0
 }
 
 h1{
@@ -43,20 +88,15 @@ h4{
     color:#f72585;
 }
 
-a:link{
+a:link, a:visited{
     color:white;
     text-decoration: none;
 }
 
-a:visited{
-    color:white;
-}
-
-a:hover{
+a:hover, a:active{
     color:#f72585;
 }
 
-a:active{
-    color:#f72585;
-}
+
+
 
