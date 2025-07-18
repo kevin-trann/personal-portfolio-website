@@ -5,6 +5,10 @@ body{
     font-weight: 200;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header{
     display:flex;
     justify-content: flex-end;
@@ -24,6 +28,33 @@ header{
     font-weight: 200;
     line-height: 0.9;
     
+}
+
+#intro{
+    padding-bottom:20vh;
+}
+
+#about h1{
+    font-size: 32px;
+}
+
+#aboutExceptForTitle{
+    display:flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+#texts{
+    flex: 1;
+}
+
+img{
+    width:10vw;
+    filter: sepia(30%) hue-rotate(310deg) saturate(150%);
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink:0;
+
 }
 
 #contact{
@@ -58,7 +89,9 @@ header{
 }
 
 #emailButton a:hover, #emailButton a:active{
-    color:white;
+    
+    box-shadow: 0 0 6px #f72585;
+    text-shadow: 0 0 4px #f72585;
 }
 
 #credits{
