@@ -135,6 +135,7 @@ a:link, a:visited{
 
 a:hover, a:active{
     color:#f72585;
+    transition: color 0.3s ease;
 }
 
 
@@ -158,16 +159,44 @@ a:hover, a:active{
 
 #verticalText a:link, #verticalText a:visited{
     position:fixed;
-    right: -42px;
+    right: -45px;
     bottom: 220px;
     transform: rotate(90deg);
     color: #8892b0;
-    font-weight:400;
+    font-weight:500;
 }
 
 #verticalText a:hover, #verticalText a:active{
     color:#f72585;
 }
+
+.fa-brands  {
+    color: #8892b0;
+    position: fixed;
+    font-size:25px;
+    transition: color 0.3s ease;
+}
+.fa-linkedin-in{
+    bottom: 265px;
+    left: 45px;   
+}
+
+.fa-github{
+    bottom:205px;
+    left: 45px;
+}
+
+.fa-instagram{
+    bottom: 145px;
+    left:45px;
+}
+
+i:hover{
+    color:#f72585;
+}
+
+
+
 
 
 
