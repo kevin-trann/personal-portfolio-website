@@ -41,8 +41,9 @@ hr{
     padding-bottom: 1px;
 }
 
-#about h1{
+#about h1, #projects h1{
     font-size: 32px;
+    color: #f72585;
 }
 
 #aboutExceptForTitle{
@@ -55,13 +56,75 @@ hr{
     flex: 1;
 }
 
-img{
+#aboutExceptForTitle img{
     width:10vw;
     filter: sepia(30%) hue-rotate(310deg) saturate(150%);
     object-fit: cover;
     border-radius: 50%;
     flex-shrink:0;
 
+}
+
+.gengar_simulator img{
+display:block;
+width: 70%;
+border-radius: 10px;
+border: white solid 1px;
+}
+
+.personal_portfolio_website img{
+display:block;
+width: 70%;
+border-radius: 10px;
+float:right;
+border: white solid 1px;
+}
+
+#projects img{
+display:block;
+width: 70%;
+border-radius: 10px;
+}
+
+.gengar_simulator, .personal_portfolio_website{
+    display:inline-block;
+    position:relative;
+    
+}
+
+#project_description{
+    position:absolute;
+    background-color:#233554;
+    color:white;
+    width:16vw;
+    height:13vh;
+    bottom:30%;
+    right:0.1%;
+    border-radius: 10px;
+}
+
+#project_description2{
+    position:absolute;
+    background-color:#233554;
+    color:white;
+    width:16vw;
+    height:13vh;
+    top:10%;
+    left:0.1%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#project_description h4, #project_description2 h4{
+    font-size: 1em;
+    color:#aab3c9;
+    margin: 5%;
+    font-weight: 500;
+}
+
+#projects h2{
+    text-align: center;
+    margin-top: 5vh;
 }
 
 #contact{
@@ -181,7 +244,7 @@ a:hover, a:active{
     left: 45px;   
 }
 
-.fa-github{
+.fa-github:last-child{
     bottom:205px;
     left: 45px;
 }
@@ -201,8 +264,9 @@ i:hover{
     top: 27px;
     left: 37px;
     color:#f72585;
-
 }
+
+
 
 
 
