@@ -61,14 +61,14 @@ hr{
     flex-shrink:0;
 }
 
-.gengar_simulator img{
+.left_project img{
 display:block;
 width: 70%;
 border-radius: 10px;
 border: white solid 1px;
 }
 
-.personal_portfolio_website img{
+.right_project img{
 display:block;
 width: 70%;
 border-radius: 10px;
@@ -82,7 +82,7 @@ width: 70%;
 border-radius: 10px;
 }
 
-.gengar_simulator, .personal_portfolio_website{
+.left_project, .right_project{
     display:inline-block;
     position:relative;
 }
@@ -106,7 +106,7 @@ border-radius: 10px;
     color:white;
     width:50%;
     max-height: 60%;
-    top:10%;
+    bottom:20%;
     left:0.1%;
     border-radius: 10px;
     margin: 0 auto;
@@ -327,8 +327,8 @@ i:hover{
 @media (max-width: 550px) { 
 
     #project_description, #project_description2{
-    font-size:clamp(0.28rem, 1vw, 0.4rem);
-    height: 9vh;
+    font-size:clamp(0.28rem, 1vw, 0.35rem);
+    height: 7vh;
     }
 
     .fa-code{
