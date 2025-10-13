@@ -55,7 +55,6 @@ hr{
 
 #aboutExceptForTitle img{
     width:10vw;
-    filter: sepia(30%) hue-rotate(310deg) saturate(150%);
     object-fit: cover;
     border-radius: 50%;
     flex-shrink:0;
@@ -173,7 +172,6 @@ border-radius: 10px;
 
 h1{
     font-size:50px;
-    
 }
 
 h4{
