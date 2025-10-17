@@ -53,13 +53,6 @@ hr{
     flex: 1;
 }
 
-#aboutExceptForTitle img{
-    width:10vw;
-    object-fit: cover;
-    border-radius: 50%;
-    flex-shrink:0;
-}
-
 .left_project img{
 display:block;
 width: 70%;
